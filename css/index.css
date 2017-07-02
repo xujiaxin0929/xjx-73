@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+input,
+select,
+form images,
+button {
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+textarea {
+  width: 95%;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+em,
+i {
+  font-style: normal;
+}
+img {
+  border: none;
+}
+input,
+img {
+  vertical-align: middle;
+}
+body {
+  color: #000;
+  font-family: arial;
+  background: #ebf0f4;
+  overflow-x: hidden;
+}
+.col-md-2 {
+  padding: 0px;
+}
+.list-group {
+  margin: 0px;
+}
+.list-son {
+  display: none;
+}
+.list-sonn {
+  display: block;
+}
+.header {
+  width: 100%;
+  height: 60px;
+  border: 1px solid black;
+}
+.header .container .row .log {
+  height: 60px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.header .container .row .user {
+  height: 60px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.content {
+  border: 1px solid black;
+}
+.content .content-left .list-group .list-son a {
+  padding-left: 55px;
+}
+.content .content-right {
+  padding-right: 0px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  box-sizing: border-box;
+}
+.content .content-right .cright-w {
+  border: 1px solid skyblue;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.content .content-right .cright-w .chead {
+  height: 42px;
+}
+.content .content-right .cright-w .chead .chead-left {
+  height: 42px;
+  float: left;
+}
+.content .content-right .cright-w .chead .chead-left span {
+  font-size: 14px;
+  height: 40px;
+  padding: 14px;
+  line-height: 39px;
+  color: #676767;
+  text-align: center;
+  border-bottom: 1px solid #ebebeb;
+}
+.content .content-right .cright-w .chead .chead-left .chead-style-left {
+  border-top: 4px solid #1eaae5;
+  border-bottom: none;
+  border-right: 1px solid #ebebeb;
+}
+.content .content-right .cright-w .chead .chead-left .chead-style-right {
+  border-top: 4px solid #1eaae5;
+  border-bottom: none;
+  border-left: 1px solid #ebebeb;
+}
+.content .content-right .cright-w .chead .chead-mid {
+  height: 42px;
+  width: 589px;
+  float: left;
+  border-bottom: 1px solid #ebebeb;
+}
+.content .content-right .cright-w .chead .chead-right {
+  height: 42px;
+  float: right;
+  line-height: 42px;
+  text-align: center;
+  border-bottom: 1px solid #ebebeb;
+}
+.content .content-right .cright-w .chead .chead-right span {
+  font-size: 14px;
+  border: 1px solid #1faae5;
+  color: #9c9c9c;
+  padding: 4px;
+  border-radius: 0px 4px 4px 0px;
+}
+.content .content-right .cright-w .csale {
+  height: 68px;
+  line-height: 68px;
+}
+.content .content-right .cright-w .csale span {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  border-left: 2px solid #1eaae5;
+}
+.content .content-right .cright-w .call {
+  height: 176px;
+  background-color: #f7f7f7;
+  margin-bottom: 16px;
+}
