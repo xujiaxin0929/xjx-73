@@ -169,6 +169,13 @@ body {
   padding: 4px;
   border-radius: 0px 4px 4px 0px;
 }
+.content .content-right .cright-w .chead .chead-right :nth-child(1) {
+  border-radius: 4px 0px 0px 4px;
+}
+.content .content-right .cright-w .chead .chead-right .chead-change {
+  background-color: #1faae5;
+  color: #fff;
+}
 .content .content-right .cright-w .csale {
   height: 68px;
   line-height: 68px;
